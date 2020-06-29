@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Git - Tag - Zhoufulai`s Blog</title>
+        <link>https://mzhoufulai.github.io/tags/git/</link>
+        <description>Git - Tag - Zhoufulai`s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>mzhoufulai@gmails.com (Zhoufulai)</managingEditor>
+            <webMaster>mzhoufulai@gmails.com (Zhoufulai)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 30 Jun 2020 00:00:38 &#43;0800</lastBuildDate><atom:link href="https://mzhoufulai.github.io/tags/git/" rel="self" type="application/rss+xml" /><item>
+    <title>Gitcommand</title>
+    <link>https://mzhoufulai.github.io/post/gitcommand/</link>
+    <pubDate>Tue, 30 Jun 2020 00:00:38 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://mzhoufulai.github.io/post/gitcommand/</guid>
+    <description><![CDATA[参考资料  删除github文件/文件夹  ]]></description>
+</item></channel>
+</rss>

@@ -1,0 +1,28 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Gitbook - Tag - Zhoufulai`s Blog</title>
+        <link>https://mzhoufulai.github.io/tags/gitbook/</link>
+        <description>Gitbook - Tag - Zhoufulai`s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>mzhoufulai@gmails.com (Zhoufulai)</managingEditor>
+            <webMaster>mzhoufulai@gmails.com (Zhoufulai)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 18 Jun 2020 00:16:13 &#43;0800</lastBuildDate><atom:link href="https://mzhoufulai.github.io/tags/gitbook/" rel="self" type="application/rss+xml" /><item>
+    <title>使用Gitbook搭建个人文档</title>
+    <link>https://mzhoufulai.github.io/post/%E4%BD%BF%E7%94%A8gitbook%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E6%96%87%E6%A1%A3/</link>
+    <pubDate>Thu, 18 Jun 2020 00:16:13 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://mzhoufulai.github.io/post/%E4%BD%BF%E7%94%A8gitbook%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E6%96%87%E6%A1%A3/</guid>
+    <description><![CDATA[Note  Gitbook Github     以Mac为例
+1 安装node.js (Homebrew安装) 查找node.js
+brew search node.js
+安装node.js
+brew install node.js
+查看node.js版本
+node -v
+更新node.js
+brew upgrade node
+2 安装gitbook 安装gitbook
+npm install gitbook-cli -g
+查看gitbook版本
+gitbook -V
+3 创建Book目录 1 2  cd Book gitbook init # Book目录下多了README.md和SUMMARY.md文件   注意:  在运行gitbook init后，Book目录下只产生了README.md，SUMMARY.md文件产生失败，同时还报错。后面在创建book.js后安装插件报错失败。所以后面改用docsify进行个人文档的搭建。     4 生成网页并启动gitbook 1  gitbook serve # 通过http://localhost:4000即可访问   5 生成网页不启动gitbook 1 2 3 4 5  # 默认将静态页面生成在 _book目录下, gitbook build # 如果想指定目录,比如托管在github上,则需要生成在docs目录,可以使用以下命令 gitbook build .]]></description>
+</item></channel>
+</rss>

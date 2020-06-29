@@ -1,0 +1,28 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Blog - Tag - Zhoufulai`s Blog</title>
+        <link>https://mzhoufulai.github.io/tags/blog/</link>
+        <description>Blog - Tag - Zhoufulai`s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>mzhoufulai@gmails.com (Zhoufulai)</managingEditor>
+            <webMaster>mzhoufulai@gmails.com (Zhoufulai)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 11 Jun 2020 20:46:33 &#43;0800</lastBuildDate><atom:link href="https://mzhoufulai.github.io/tags/blog/" rel="self" type="application/rss+xml" /><item>
+    <title>Hugo&#43;Github搭建个人博客</title>
+    <link>https://mzhoufulai.github.io/post/hugo&#43;github/</link>
+    <pubDate>Thu, 11 Jun 2020 20:46:33 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://mzhoufulai.github.io/post/hugo&#43;github/</guid>
+    <description><![CDATA[Hugo + Github 搭建个人博客
+1 准备工作 以苹果电脑为例：
+ Hugo的安装 Github的账号的注册 Git的安装  2 搭建流程 软件安装  Hugo 安装 Github 账号注册 Git的安装  搭建流程 初始化 初始化我们的 Hugo 我们首先需要选择一个路径来存放我们的博客，在你选好的路径下执行
+hugo new site Blog
+这条命令会创建一个名为 Blog (你也可以使用你喜欢的任意名字) 的文件夹来存放你的博客。执行 cd Blog 进入文件夹。
+git clone https://github.com/dillonzq/LoveIt.git themes/LoveIt
+创建新页面
+hugo new about.md
+此时你就可以在 http://localhost:1313 访问到你的博客了
+hugo server --buildDrafts -w
+hugo
+此时你的博客目录下会多出一个 public 文件夹来。这便是 Hugo 生成的网站
+第一次发布
+1 2 3 4 5 6  git init git remote add origin https://github.]]></description>
+</item></channel>
+</rss>

@@ -1,0 +1,90 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>不重复造轮子 - Category - Zhoufulai`s Blog</title>
+        <link>https://mzhoufulai.github.io/categories/%E4%B8%8D%E9%87%8D%E5%A4%8D%E9%80%A0%E8%BD%AE%E5%AD%90/</link>
+        <description>不重复造轮子 - Category - Zhoufulai`s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>mzhoufulai@gmails.com (Zhoufulai)</managingEditor>
+            <webMaster>mzhoufulai@gmails.com (Zhoufulai)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 30 Jun 2020 00:00:38 &#43;0800</lastBuildDate><atom:link href="https://mzhoufulai.github.io/categories/%E4%B8%8D%E9%87%8D%E5%A4%8D%E9%80%A0%E8%BD%AE%E5%AD%90/" rel="self" type="application/rss+xml" /><item>
+    <title>Gitcommand</title>
+    <link>https://mzhoufulai.github.io/post/gitcommand/</link>
+    <pubDate>Tue, 30 Jun 2020 00:00:38 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://mzhoufulai.github.io/post/gitcommand/</guid>
+    <description><![CDATA[参考资料  删除github文件/文件夹  ]]></description>
+</item><item>
+    <title>使用docsify构建个人文档</title>
+    <link>https://mzhoufulai.github.io/post/%E4%BD%BF%E7%94%A8docsify%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E6%96%87%E6%A1%A3/</link>
+    <pubDate>Thu, 18 Jun 2020 11:20:38 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://mzhoufulai.github.io/post/%E4%BD%BF%E7%94%A8docsify%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E6%96%87%E6%A1%A3/</guid>
+    <description><![CDATA[Note  Gitbook Github     以Mac为例
+1 安装node.js (Homebrew安装) 查找node.js
+brew search node.js
+安装node.js
+brew install node.js
+查看node.js版本
+node -v
+更新node.js
+brew upgrade node
+2 安装docsify 安装docsify
+npm i docsify-cli -g
+查看docsify版本
+docsify -v
+3 初始化项目 docsify init ./
+docsify serve ./
+参考资料 [1] docsify官方中文网站
+[2] 有了docsify神器，从此爱上看文档
+[3] docsify - 生成文档网站简单使用教程
+[4] 使用docsify 写开源文档]]></description>
+</item><item>
+    <title>使用Gitbook搭建个人文档</title>
+    <link>https://mzhoufulai.github.io/post/%E4%BD%BF%E7%94%A8gitbook%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E6%96%87%E6%A1%A3/</link>
+    <pubDate>Thu, 18 Jun 2020 00:16:13 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://mzhoufulai.github.io/post/%E4%BD%BF%E7%94%A8gitbook%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E6%96%87%E6%A1%A3/</guid>
+    <description><![CDATA[Note  Gitbook Github     以Mac为例
+1 安装node.js (Homebrew安装) 查找node.js
+brew search node.js
+安装node.js
+brew install node.js
+查看node.js版本
+node -v
+更新node.js
+brew upgrade node
+2 安装gitbook 安装gitbook
+npm install gitbook-cli -g
+查看gitbook版本
+gitbook -V
+3 创建Book目录 1 2  cd Book gitbook init # Book目录下多了README.md和SUMMARY.md文件   注意:  在运行gitbook init后，Book目录下只产生了README.md，SUMMARY.md文件产生失败，同时还报错。后面在创建book.js后安装插件报错失败。所以后面改用docsify进行个人文档的搭建。     4 生成网页并启动gitbook 1  gitbook serve # 通过http://localhost:4000即可访问   5 生成网页不启动gitbook 1 2 3 4 5  # 默认将静态页面生成在 _book目录下, gitbook build # 如果想指定目录,比如托管在github上,则需要生成在docs目录,可以使用以下命令 gitbook build .]]></description>
+</item><item>
+    <title>Markdown语法</title>
+    <link>https://mzhoufulai.github.io/post/markdown%E8%AF%AD%E6%B3%95/</link>
+    <pubDate>Thu, 11 Jun 2020 21:25:25 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://mzhoufulai.github.io/post/markdown%E8%AF%AD%E6%B3%95/</guid>
+    <description><![CDATA[Note  这篇文章转载于Dillon关于Markdown语法的文章。   1 标题 从 h2 到 h6 的标题在每个级别上都加上一个 ＃:
+1 2 3 4 5  ## h2 标题 ### h3 标题 #### h4 标题 ##### h5 标题 ###### h6 标题   输出的HTML看起来像这样:
+1 2 3 4 5  &lt;h2&gt;h2 标题&lt;/h2&gt; &lt;h3&gt;h3 标题&lt;/h3&gt; &lt;h4&gt;h4 标题&lt;/h4&gt; &lt;h5&gt;h5 标题&lt;/h5&gt; &lt;h6&gt;h6 标题&lt;/h6&gt;   标题ID  1  ### 一个很棒的标题 {#custom-id}   输出的 HTML 看起来像这样:
+1  &lt;h3 id=&#34;custom-id&#34;&gt;一个很棒的标题&lt;/h3&gt;      2 注释 注释是和 HTML 兼容的：]]></description>
+</item><item>
+    <title>Hugo&#43;Github搭建个人博客</title>
+    <link>https://mzhoufulai.github.io/post/hugo&#43;github/</link>
+    <pubDate>Thu, 11 Jun 2020 20:46:33 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://mzhoufulai.github.io/post/hugo&#43;github/</guid>
+    <description><![CDATA[Hugo + Github 搭建个人博客
+1 准备工作 以苹果电脑为例：
+ Hugo的安装 Github的账号的注册 Git的安装  2 搭建流程 软件安装  Hugo 安装 Github 账号注册 Git的安装  搭建流程 初始化 初始化我们的 Hugo 我们首先需要选择一个路径来存放我们的博客，在你选好的路径下执行
+hugo new site Blog
+这条命令会创建一个名为 Blog (你也可以使用你喜欢的任意名字) 的文件夹来存放你的博客。执行 cd Blog 进入文件夹。
+git clone https://github.com/dillonzq/LoveIt.git themes/LoveIt
+创建新页面
+hugo new about.md
+此时你就可以在 http://localhost:1313 访问到你的博客了
+hugo server --buildDrafts -w
+hugo
+此时你的博客目录下会多出一个 public 文件夹来。这便是 Hugo 生成的网站
+第一次发布
+1 2 3 4 5 6  git init git remote add origin https://github.]]></description>
+</item></channel>
+</rss>

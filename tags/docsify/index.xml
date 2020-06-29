@@ -1,0 +1,33 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>docsify - Tag - Zhoufulai`s Blog</title>
+        <link>https://mzhoufulai.github.io/tags/docsify/</link>
+        <description>docsify - Tag - Zhoufulai`s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>mzhoufulai@gmails.com (Zhoufulai)</managingEditor>
+            <webMaster>mzhoufulai@gmails.com (Zhoufulai)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 18 Jun 2020 11:20:38 &#43;0800</lastBuildDate><atom:link href="https://mzhoufulai.github.io/tags/docsify/" rel="self" type="application/rss+xml" /><item>
+    <title>使用docsify构建个人文档</title>
+    <link>https://mzhoufulai.github.io/post/%E4%BD%BF%E7%94%A8docsify%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E6%96%87%E6%A1%A3/</link>
+    <pubDate>Thu, 18 Jun 2020 11:20:38 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://mzhoufulai.github.io/post/%E4%BD%BF%E7%94%A8docsify%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E6%96%87%E6%A1%A3/</guid>
+    <description><![CDATA[Note  Gitbook Github     以Mac为例
+1 安装node.js (Homebrew安装) 查找node.js
+brew search node.js
+安装node.js
+brew install node.js
+查看node.js版本
+node -v
+更新node.js
+brew upgrade node
+2 安装docsify 安装docsify
+npm i docsify-cli -g
+查看docsify版本
+docsify -v
+3 初始化项目 docsify init ./
+docsify serve ./
+参考资料 [1] docsify官方中文网站
+[2] 有了docsify神器，从此爱上看文档
+[3] docsify - 生成文档网站简单使用教程
+[4] 使用docsify 写开源文档]]></description>
+</item></channel>
+</rss>

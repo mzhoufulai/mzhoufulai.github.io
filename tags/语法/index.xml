@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>语法 - Tag - Zhoufulai`s Blog</title>
+        <link>https://mzhoufulai.github.io/tags/%E8%AF%AD%E6%B3%95/</link>
+        <description>语法 - Tag - Zhoufulai`s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>mzhoufulai@gmails.com (Zhoufulai)</managingEditor>
+            <webMaster>mzhoufulai@gmails.com (Zhoufulai)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 11 Jun 2020 21:25:25 &#43;0800</lastBuildDate><atom:link href="https://mzhoufulai.github.io/tags/%E8%AF%AD%E6%B3%95/" rel="self" type="application/rss+xml" /><item>
+    <title>Markdown语法</title>
+    <link>https://mzhoufulai.github.io/post/markdown%E8%AF%AD%E6%B3%95/</link>
+    <pubDate>Thu, 11 Jun 2020 21:25:25 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://mzhoufulai.github.io/post/markdown%E8%AF%AD%E6%B3%95/</guid>
+    <description><![CDATA[Note  这篇文章转载于Dillon关于Markdown语法的文章。   1 标题 从 h2 到 h6 的标题在每个级别上都加上一个 ＃:
+1 2 3 4 5  ## h2 标题 ### h3 标题 #### h4 标题 ##### h5 标题 ###### h6 标题   输出的HTML看起来像这样:
+1 2 3 4 5  &lt;h2&gt;h2 标题&lt;/h2&gt; &lt;h3&gt;h3 标题&lt;/h3&gt; &lt;h4&gt;h4 标题&lt;/h4&gt; &lt;h5&gt;h5 标题&lt;/h5&gt; &lt;h6&gt;h6 标题&lt;/h6&gt;   标题ID  1  ### 一个很棒的标题 {#custom-id}   输出的 HTML 看起来像这样:
+1  &lt;h3 id=&#34;custom-id&#34;&gt;一个很棒的标题&lt;/h3&gt;      2 注释 注释是和 HTML 兼容的：]]></description>
+</item></channel>
+</rss>
